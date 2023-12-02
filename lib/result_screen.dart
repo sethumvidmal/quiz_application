@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quiz_app/data/questions.dart';
+import 'package:quiz_app/question_result.dart';
 
 class ResultScreen extends StatelessWidget {
   const ResultScreen(
@@ -34,7 +35,7 @@ class ResultScreen extends StatelessWidget {
             style: TextStyle(color: Colors.white, fontSize: 28),
           ),
           ...getSummary()
-              .map((s) => Text(((s['userAnswer'].toString())))),
+              .map((s) => QuestionResult(value: s)),
           OutlinedButton(
               onPressed: () {
                 onAction();
