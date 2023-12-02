@@ -1,0 +1,4 @@
+{
+    "editor.inlineSuggest.showToolbar": "always",
+    "java.compile.nullAnalysis.mode": "automatic"
+}
