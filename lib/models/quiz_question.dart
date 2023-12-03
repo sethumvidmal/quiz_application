@@ -14,12 +14,12 @@ class QuizQuestion {
     randomAnswers.shuffle();
     return randomAnswers;
   }
-  Future<Map<String,Object>> readJson() async {
+  // Future<Map<String,Object>> readJson() async {
+
+  //   final String response = await rootBundle.loadString('assets/json/question.json');
+  //   final data = await json.decode(response);
+  //   final question = data['question'];
+  //   final answers = data[''];
     
-    final String response = await rootBundle.loadString('assets/json/question.json');
-    final data = await json.decode(response);
-    final question = data['question'];
-    final answers = data[''];
-    
-  }
+  // }
 }
