@@ -20,3 +20,4 @@ flutter:
   assets:
     - 'assets/images/quiz-cover.webp'
     - 'assets/images/quiz-cover-2.png'
+    - 'assets/json/questions.json'
